@@ -482,3 +482,7 @@ padding-top: 25px;
   background-color: #292929 !important;
   color: white !important;
 }
+.second-header{
+  padding: 0;
+  margin: -7.8px;
+}
