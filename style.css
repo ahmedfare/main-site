@@ -366,6 +366,8 @@ margin: auto;
 border-radius: 15px;
 padding-bottom: 25px;
 padding-top: 25px;
+flex-wrap: wrap;
+
 }
 .main-gd{
 
@@ -417,6 +419,9 @@ padding-top: 25px;
   transition: 0.2s;
 }
 
+#a5{
+  transition: 0.2s;
+}
 #a1:hover{
   box-shadow: 0px 0px 5px #afafaf;
 
@@ -433,7 +438,10 @@ padding-top: 25px;
   box-shadow: 0px 0px 5px #afafaf;
 
 }
+#a5:hover{
+  box-shadow: 0px 0px 5px #afafaf;
 
+}
 .what-to-learn{
   text-align: center;
   margin-bottom: 25px;
@@ -465,6 +473,9 @@ padding-top: 25px;
   .himg{
     width: 60px;
   }
+  .sec4{
+    padding-right: 27px;
+  }
 }
 @media (max-width:610px) {
   .sec4{
@@ -485,4 +496,11 @@ padding-top: 25px;
 .second-header{
   padding: 0;
   margin: -7.8px;
+}
+
+@media (max-width:1089px) {
+  .sec4{
+  flex-wrap: wrap;
+    
+  }
 }
