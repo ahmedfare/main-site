@@ -65,3 +65,21 @@ a4.addEventListener("mouseover" , (eo) => {
 a4.addEventListener("mouseout" , (eo) => {
   seemore4.classList.remove("yellow")
 })
+theme1.addEventListener("click" , () => {
+  body.classList.toggle("addtheme")
+black.classList.toggle("addtheme")
+a1.classList.toggle("white")
+a2.classList.toggle("white")
+a3.classList.toggle("white")
+a4.classList.toggle("white")
+gd1.classList.toggle("white")
+gd2.classList.toggle("white")
+gd3.classList.toggle("white")
+gd4.classList.toggle("white")
+black2.classList.toggle("addtheme")
+black3.classList.toggle("addtheme")
+theme1.classList.toggle("addtheme")
+black4.classList.toggle("addtheme")
+black5.classList.toggle("addtheme")
+
+})
