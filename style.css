@@ -450,7 +450,7 @@ padding-top: 25px;
   margin-top: 55px;
 }
 .white{
-  color: white;
+  color: white !important;
 }
 @media (max-width:858px) {
   .main-gd{
@@ -477,4 +477,8 @@ padding-top: 25px;
     border: 2px solid;
     padding: 10px 10px;
   }
+}
+.colorrr{
+  background-color: #292929 !important;
+  color: white !important;
 }
