@@ -496,6 +496,7 @@ flex-wrap: wrap;
 .second-header{
   padding: 0;
   margin: -7.8px;
+  
 }
 
 @media (max-width:1089px) {
@@ -507,4 +508,15 @@ flex-wrap: wrap;
 .container-fluid{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.sec5{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0px 0px 5px #afafaf;
+padding: 15px 20px;
+border-radius: 15px;
+margin-bottom: 15px;
 }
